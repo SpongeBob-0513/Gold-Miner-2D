@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6870721870297942405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6870721870297942407}
+  - component: {fileID: 6870721870297942404}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6870721870297942407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870721870297942405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6870721870297942404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870721870297942405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33725004b57e2ea44bb5ae9129278c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BGMusic
+    clip: {fileID: 8300000, guid: aac85e2e7aa74204c91206a88abfd4c8, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 1
+    playOnAwake: 1
+    source: {fileID: 0}
+  - name: RopeStretchSound
+    clip: {fileID: 8300000, guid: 22745771368aaa64cb6c4dd59fa344cb, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PullSound
+    clip: {fileID: 8300000, guid: d7a76c27df9841b428f48314fee283ea, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: CheerSound
+    clip: {fileID: 8300000, guid: 349b3ec20685efe4790edf5dd2806b3b, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: StoneSound
+    clip: {fileID: 8300000, guid: 04de0445e0aafc44fbf890fbdabdbaa6, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: TimeRunOut
+    clip: {fileID: 8300000, guid: e79ab474bb3cabe40a5755a1574d572b, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: End
+    clip: {fileID: 8300000, guid: f8bb1c858995596459e0772c6b1a6820, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Explode
+    clip: {fileID: 8300000, guid: d4aee29185389894b9cc0d8873904a49, type: 3}
+    volume: 0.614
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
